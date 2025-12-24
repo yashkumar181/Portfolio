@@ -18,7 +18,7 @@ const About = () => {
         </div>
         <div className="badge">
           <FaCode className="badge-icon" />
-          <span>500+ LeetCode</span>
+          <span>300+ LeetCode</span>
         </div>
         <div className="badge">
           <FaLaptopCode className="badge-icon" />
