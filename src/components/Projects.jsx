@@ -48,7 +48,7 @@ const Projects = () => {
       shortDesc: "My Portfolio Website",
       fullDesc: "My Portfolio Website",
       github: "https://github.com/yashkumar181/Portfolio",
-      live: "https://portfolio-eight-phi-vf406abrw9.vercel.app/"
+      live: "https://yashkumarportfolio18.vercel.app/"
     },
     {
       id: 5,
