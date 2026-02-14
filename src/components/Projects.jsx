@@ -9,7 +9,7 @@ const Projects = () => {
   const projects = [
     {
       id: 1, 
-      title: "Air Quality Prediction (Res-XGB-LSTM)",
+      title: "Air Quality Prediction (XGB-LSTM)",
       date: "Feb 2026",
       image: "/AQI_Research_Results_Final.png",
       tech: ["XGBoost", "LSTM", "Python", "TensorFlow"],
