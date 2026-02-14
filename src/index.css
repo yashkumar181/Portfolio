@@ -757,3 +757,30 @@ body::-webkit-scrollbar {
   margin-bottom: 1rem;
   align-self: flex-start; /* Title stays left */
 }
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.filter-btn {
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #444;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.filter-btn.active {
+  background: #fff; /* Or your accent color */
+  color: #000;
+  border-color: #fff;
+}
+
+.filter-btn:hover {
+  border-color: #fff;
+}
