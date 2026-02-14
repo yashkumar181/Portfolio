@@ -37,7 +37,7 @@ const Projects = () => {
       date: "Sep 2025 - Oct 2025",
       image: "/manova.png",
       tech: ["TypeScript", "React.js", "Firebase","CSS", "JavaScript", "Groq", "Zoom"],
-      category: "Web Dev", // Added category
+      category: "Web Development", // Added category
       shortDesc: "A platform for psychological support for students in higher education",
       fullDesc: "मनova is a platform tackles the critical need for structured, accessible, and stigma-free mental health services by offering a centralized hub for students and administrators alike.",
       github: "https://github.com/yashkumar181/Maanova",
@@ -49,7 +49,7 @@ const Projects = () => {
       date: "April 2024",
       image: "/healthvision.png",
       tech: ["Gemini", "JavaScript", "Tesseract.js", "HTML","CSS","Leaflet.js ","EmailJS"],
-      category: "Web Dev", // Added category
+      category: "Web Development", // Added category
       shortDesc: "HealthVision: AI-driven web platform that offers a comprehensive healthcare assistant.",
       fullDesc: "An AI-driven web based healthcare assistant. From symptom checking to appointment booking, and medical image diagnosis to finding nearby hospitals — HealthVision is designed to be your smart healthcare companion.",
       github: "https://github.com/yashkumar181/HealthVision",
@@ -61,7 +61,7 @@ const Projects = () => {
       date: "Dec 2025",
       image: "/portfolio.png",
       tech: ["React", "CSS", "JavaScript"],
-      category: "Web Dev", // Added category
+      category: "Web Development", // Added category
       shortDesc: "My Portfolio Website",
       fullDesc: "My Portfolio Website",
       github: "https://github.com/yashkumar181/Portfolio",
@@ -73,7 +73,7 @@ const Projects = () => {
       date: "April 2025",
       image: "/replify.png",
       tech: ["HTML", "CSS", "JavaScript"],
-      category: "Web Dev", // Added category
+      category: "Web Development", // Added category
       shortDesc: "Gemini based automated Email Response Generator.",
       fullDesc: "Gemini based automated Email Response Generator. Select the response tone and Mail from the platform itself.",
       github: "https://github.com/yashkumar181/Auto-Response-Generator",
