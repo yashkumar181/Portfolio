@@ -7,7 +7,18 @@ const Projects = () => {
   // PROJECT DATA (Based on your screenshots)
   const projects = [
     {
-      id: 1,
+      id: 1, 
+      title: "Air Quality Prediction (Res-XGB-LSTM)",
+      date: "Feb 2026",
+      image: "/AQI_Research_Results_Final.png",
+      tech: ["XGBoost", "LSTM", "Python", "TensorFlow"],
+      shortDesc: "A hybrid residual learning architecture achieving 11.52% better accuracy than standard models.",
+      fullDesc: "Developed a novel 'Res-XGB-LSTM' algorithm that integrates XGBoost with Long Short-Term Memory (LSTM) networks to forecast Delhi's AQI. The model uses XGBoost to capture chemical correlations of pollutants (NOx, CO, Benzene) and employs LSTM to model residual errors, achieving an RMSE of 21.32. This hybrid approach specifically improves predictions during extreme 'Severe' pollution events.",
+      github: "https://github.com/yashkumar181/AQI_Research_Project",
+      live: "https://github.com/yashkumar181/AQI_Research_Project"
+    },
+    {
+      id: 2,
       title: "Sam₹iddhi",
       date: "October 2025",
       image: "/samriddhi.png", // You will add this image later
@@ -18,7 +29,7 @@ const Projects = () => {
       live: "https://thecredsite.streamlit.app/"
     },
     {
-      id: 2,
+      id: 3,
       title: "मनova",
       date: "Sep 2025 - Oct 2025",
       image: "/manova.png",
@@ -29,7 +40,7 @@ const Projects = () => {
       live: "https://maanova.vercel.app/"
     },
     {
-      id: 3,
+      id: 4,
       title: "HealthVision",
       date: "April 2024",
       image: "/healthvision.png",
@@ -40,7 +51,7 @@ const Projects = () => {
       live: "https://health-vision-delta.vercel.app/"
     },
     {
-      id: 4,
+      id: 5,
       title: "My Portfolio",
       date: "Dec 2025",
       image: "/portfolio.png",
@@ -51,7 +62,7 @@ const Projects = () => {
       live: "https://yashkumarportfolio18.vercel.app/"
     },
     {
-      id: 5,
+      id: 6,
       title: "Replify",
       date: "April 2025",
       image: "/replify.png",
@@ -61,17 +72,7 @@ const Projects = () => {
       github: "https://github.com/yashkumar181/Auto-Response-Generator",
       live: "https://yashkumar181.github.io/Auto-Response-Generator/"
     },
-    {
-      id: 6, 
-      title: "Air Quality Prediction (Res-XGB-LSTM)",
-      date: "Feb 2026",
-      image: "/AQI_Research_Results_Final.png",
-      tech: ["XGBoost", "LSTM", "Python", "TensorFlow"],
-      shortDesc: "A hybrid residual learning architecture achieving 11.52% better accuracy than standard models.",
-      fullDesc: "Developed a novel 'Res-XGB-LSTM' algorithm that integrates XGBoost with Long Short-Term Memory (LSTM) networks to forecast Delhi's AQI. The model uses XGBoost to capture chemical correlations of pollutants (NOx, CO, Benzene) and employs LSTM to model residual errors, achieving an RMSE of 21.32. This hybrid approach specifically improves predictions during extreme 'Severe' pollution events.",
-      github: "https://github.com/yashkumar181/AQI_Research_Project",
-      live: "https://github.com/yashkumar181/AQI_Research_Project"
-}
+    
 
   ];
 
