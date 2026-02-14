@@ -61,6 +61,17 @@ const Projects = () => {
       github: "https://github.com/yashkumar181/Auto-Response-Generator",
       live: "https://yashkumar181.github.io/Auto-Response-Generator/"
     },
+    {
+      id: 6, 
+      title: "Air Quality Prediction (Res-XGB-LSTM)",
+      date: "Feb 2026",
+      image: "/AQI_Research_Results_Final.png",
+      tech: ["XGBoost", "LSTM", "Python", "TensorFlow"],
+      shortDesc: "A hybrid residual learning architecture achieving 11.52% better accuracy than standard models.",
+      fullDesc: "Developed a novel 'Res-XGB-LSTM' algorithm that integrates XGBoost with Long Short-Term Memory (LSTM) networks to forecast Delhi's AQI. The model uses XGBoost to capture chemical correlations of pollutants (NOx, CO, Benzene) and employs LSTM to model residual errors, achieving an RMSE of 21.32. This hybrid approach specifically improves predictions during extreme 'Severe' pollution events.",
+      github: "https://github.com/yashkumar181/AQI_Research_Project",
+      live: "https://github.com/yashkumar181/AQI_Research_Project"
+}
 
   ];
 
