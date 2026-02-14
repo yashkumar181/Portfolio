@@ -15,7 +15,7 @@ const Projects = () => {
       tech: ["XGBoost", "LSTM", "Python", "TensorFlow"],
       category: "Machine Learning", // Added category
       shortDesc: "A hybrid residual learning architecture achieving 11.52% better accuracy than standard models.",
-      fullDesc: "Developed a novel 'Res-XGB-LSTM' algorithm that integrates XGBoost with Long Short-Term Memory (LSTM) networks to forecast Delhi's AQI. The model uses XGBoost to capture chemical correlations of pollutants (NOx, CO, Benzene) and employs LSTM to model residual errors, achieving an RMSE of 21.32. This hybrid approach specifically improves predictions during extreme 'Severe' pollution events.",
+      fullDesc: "Developed a novel 'Res-XGB-LSTM' algorithm that integrates XGBoost with Long Short-Term Memory (LSTM) networks to forecast Delhi's AQI. The model uses XGBoost for chemical correlations of pollutants (NOx, CO, Benzene) and LSTM model for residual errors, achieving an RMSE of 21.32. This hybrid approach specifically improves predictions during extreme 'Severe' pollution events.",
       github: "https://github.com/yashkumar181/AQI_Research_Project",
       live: "https://github.com/yashkumar181/AQI_Research_Project"
     },
