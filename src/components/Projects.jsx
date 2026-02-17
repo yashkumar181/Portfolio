@@ -14,7 +14,7 @@ const Projects = () => {
   image: "/behavioral_finance.png", // Recommended: Use a screenshot of your Streamlit dashboard
   tech: ["Python", "Streamlit", "Scikit-Learn", "Pandas", "Plotly"],
   category: "Machine Learning",
-  shortDesc: "Analyzed 211,224 trades to uncover how Fear and Greed impacts trader performance.",
+  shortDesc: "Analyzed 2Lakh+ trades to see how Fear and Greed impacts trader performance.",
   fullDesc: "A dive into trader psychology on Hyperliquid exchange. Merged high-frequency trade logs with the Bitcoin Fear/Greed Index to identify behavioral patterns. Using K-Means Clustering, segmented users into Scalpers, Whales and Retail, proving that 'Extreme Fear' triggers irrational actions while 'Greed' creates catastrophic tail-risk.",
   github: "https://github.com/yashkumar181/Behavioral_Finance",
   live: "https://yash-behavioral-finance.streamlit.app/"
@@ -26,7 +26,7 @@ const Projects = () => {
       image: "/AQI_Research_Results_Final.png",
       tech: ["XGBoost", "LSTM", "Python", "TensorFlow"],
       category: "Machine Learning", // Added category
-      shortDesc: "Hybrid residual learning architecture with 11.52% better accuracy than standard models.",
+      shortDesc: "Hybrid residual learning arch. with 11.52% better accuracy than standard model",
       fullDesc: "Developed a novel 'XGB-LSTM' algorithm that integrates XGBoost with Long Short-Term Memory (LSTM) to forecast AQI. The model uses XGBoost for chemical correlations of pollutants (NOx, CO, Benzene) and LSTM model for residual errors, achieving an RMSE of 21.32. This improves predictions during extreme 'Severe' pollution.",
       github: "https://github.com/yashkumar181/AQI_Research_Project",
       live: "https://github.com/yashkumar181/AQI_Research_Project"
