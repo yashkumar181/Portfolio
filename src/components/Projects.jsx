@@ -15,9 +15,9 @@ const Projects = () => {
   tech: ["Python", "Streamlit", "Scikit-Learn", "Pandas", "Plotly"],
   category: "Machine Learning",
   shortDesc: "Analyzing 211,224 trades to uncover how 'Fear and Greed' impacts crypto trader performance.",
-  fullDesc: "An investigation into crypto trader psychology on the Hyperliquid exchange. I merged high-frequency trade logs with the Bitcoin Fear/Greed Index to identify behavioral patterns. Using K-Means Clustering, I segmented users into 'Scalpers', 'Whales', and 'Retail', proving that 'Extreme Fear' triggers irrational hyperactivity while 'Greed' creates catastrophic tail-risk.",
-  github: "[https://github.com/yashkumar181/Behavioral_Finance](https://github.com/yashkumar181/Behavioral_Finance)",
-  live: "[https://yash-behavioral-finance.streamlit.app/](https://yash-behavioral-finance.streamlit.app/)"
+  fullDesc: "A dive into trader psychology on Hyperliquid exchange. Merged high-frequency trade logs with the Bitcoin Fear/Greed Index to identify behavioral patterns. Using K-Means Clustering, segmented users into Scalpers, Whales and Retail, proving that 'Extreme Fear' triggers irrational actions while 'Greed' creates catastrophic tail-risk.",
+  github: "https://github.com/yashkumar181/Behavioral_Finance",
+  live: "https://yash-behavioral-finance.streamlit.app/"
 },
     {
       id: 2, 
