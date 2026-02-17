@@ -8,9 +8,21 @@ const Projects = () => {
 
   const projects = [
     {
-      id: 1, 
+  id: 1,
+  title: "Behavioral Finance Analysis",
+  date: "February 2026",
+  image: "/behavioral_finance.png", // Recommended: Use a screenshot of your Streamlit dashboard
+  tech: ["Python", "Streamlit", "Scikit-Learn", "Pandas", "Plotly"],
+  category: "Machine Learning",
+  shortDesc: "Analyzing 211,224 trades to uncover how 'Fear and Greed' impacts crypto trader performance.",
+  fullDesc: "An investigation into crypto trader psychology on the Hyperliquid exchange. I merged high-frequency trade logs with the Bitcoin Fear/Greed Index to identify behavioral patterns. Using K-Means Clustering, I segmented users into 'Scalpers', 'Whales', and 'Retail', proving that 'Extreme Fear' triggers irrational hyperactivity while 'Greed' creates catastrophic tail-risk.",
+  github: "[https://github.com/yashkumar181/Behavioral_Finance](https://github.com/yashkumar181/Behavioral_Finance)",
+  live: "[https://yash-behavioral-finance.streamlit.app/](https://yash-behavioral-finance.streamlit.app/)"
+},
+    {
+      id: 2, 
       title: "AQI Prediction (XGB-LSTM)",
-      date: "Feb 2026",
+      date: "February 2026",
       image: "/AQI_Research_Results_Final.png",
       tech: ["XGBoost", "LSTM", "Python", "TensorFlow"],
       category: "Machine Learning", // Added category
@@ -20,7 +32,7 @@ const Projects = () => {
       live: "https://github.com/yashkumar181/AQI_Research_Project"
     },
     {
-      id: 2,
+      id: 3,
       title: "Sam₹iddhi",
       date: "October 2025",
       image: "/samriddhi.png",
@@ -32,7 +44,7 @@ const Projects = () => {
       live: "https://thecredsite.streamlit.app/"
     },
     {
-      id: 3,
+      id: 4,
       title: "मनova",
       date: "Sep 2025 - Oct 2025",
       image: "/manova.png",
@@ -44,7 +56,7 @@ const Projects = () => {
       live: "https://maanova.vercel.app/"
     },
     {
-      id: 4,
+      id: 5,
       title: "HealthVision",
       date: "April 2024",
       image: "/healthvision.png",
@@ -56,7 +68,7 @@ const Projects = () => {
       live: "https://health-vision-delta.vercel.app/"
     },
     {
-      id: 5,
+      id: 6,
       title: "My Portfolio",
       date: "Dec 2025",
       image: "/portfolio.png",
@@ -68,7 +80,7 @@ const Projects = () => {
       live: "https://yashkumarportfolio18.vercel.app/"
     },
     {
-      id: 6,
+      id: 7,
       title: "Replify",
       date: "April 2025",
       image: "/replify.png",
