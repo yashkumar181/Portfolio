@@ -8,7 +8,19 @@ const Projects = () => {
 
   const projects = [
     {
-  id: 1,
+      id: 1,
+      title: "YapZone - Real-Time Chat",
+      date: "February 2026",
+      image: "/yapzone.png", 
+      tech: ["Next.js", "Convex", "Clerk", "TypeScript", "Tailwind CSS"],
+      category: "Web Development",
+      shortDesc: "A high-performance, real-time messaging platform with full-text search and rich media support.",
+      fullDesc: "A premium real-time chat application built with Next.js and Convex. Features include sub-50ms WebSocket data sync, in-chat full-text search, mutual blocking, read receipts, real-time typing indicators, and comprehensive group management.",
+      github: "https://github.com/yashkumar181/yapzone",
+      live: "https://yapzone.vercel.app/"
+    },
+    {
+  id: 2,
   title: "Behavioral Finance Analysis",
   date: "February 2026",
   image: "/behavioral_finance.png", // Recommended: Use a screenshot of your Streamlit dashboard
@@ -20,7 +32,7 @@ const Projects = () => {
   live: "https://yash-behavioral-finance.streamlit.app/"
 },
     {
-      id: 2, 
+      id: 3, 
       title: "AQI Prediction (XGB-LSTM)",
       date: "February 2026",
       image: "/AQI_Research_Results_Final.png",
@@ -32,7 +44,7 @@ const Projects = () => {
       live: "https://github.com/yashkumar181/AQI_Research_Project"
     },
     {
-      id: 3,
+      id: 4,
       title: "Sam₹iddhi",
       date: "October 2025",
       image: "/samriddhi.png",
@@ -44,7 +56,7 @@ const Projects = () => {
       live: "https://thecredsite.streamlit.app/"
     },
     {
-      id: 4,
+      id: 5,
       title: "मनova",
       date: "Sep 2025 - Oct 2025",
       image: "/manova.png",
@@ -56,7 +68,7 @@ const Projects = () => {
       live: "https://maanova.vercel.app/"
     },
     {
-      id: 5,
+      id: 6,
       title: "HealthVision",
       date: "April 2024",
       image: "/healthvision.png",
@@ -68,7 +80,7 @@ const Projects = () => {
       live: "https://health-vision-delta.vercel.app/"
     },
     {
-      id: 6,
+      id: 7,
       title: "My Portfolio",
       date: "Dec 2025",
       image: "/portfolio.png",
@@ -80,7 +92,7 @@ const Projects = () => {
       live: "https://yashkumarportfolio18.vercel.app/"
     },
     {
-      id: 7,
+      id: 8,
       title: "Replify",
       date: "April 2025",
       image: "/replify.png",
