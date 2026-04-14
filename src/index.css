@@ -784,3 +784,96 @@ body::-webkit-scrollbar {
 .filter-btn:hover {
   border-color: #fff;
 }
+
+/* === SMOOTH SCROLLING === */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Offset scroll position so sticky nav doesn't cover section titles */
+.scroll-section {
+  scroll-margin-top: 80px; 
+}
+
+/* === TOP NAV (DESKTOP) === */
+.top-nav {
+  position: sticky;
+  top: 0;
+  background-color: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+  display: flex;
+  justify-content: space-between; /* This makes them equally spaced! */
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem 1rem;
+  margin-top: -4rem; 
+  margin-bottom: 3rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.nav-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--accent);
+}
+
+/* === BOTTOM NAV (MOBILE) === */
+.bottom-nav {
+  display: none; /* Hidden on desktop */
+}
+
+@media (max-width: 900px) {
+  .top-nav {
+    display: none; /* Hide top nav on mobile */
+  }
+
+  .bottom-nav {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-card);
+    border-top: 1px solid var(--border);
+    z-index: 1000;
+    justify-content: space-evenly; /* Evenly spaces the icons */
+    align-items: center;
+    padding: 0.8rem 0;
+    padding-bottom: calc(0.8rem + env(safe-area-inset-bottom, 0px)); /* iPhone safe area */
+  }
+
+  .bottom-nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    text-decoration: none;
+    gap: 5px; /* Space between icon and text */
+    transition: color 0.3s ease;
+    flex: 1; /* Gives each item equal tap target width */
+  }
+
+  .nav-icon {
+    font-size: 1.2rem; /* Made the icons smaller */
+  }
+
+  .nav-text {
+    font-size: 0.65rem; /* Tiny text below the icon */
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .bottom-nav-link:hover,
+  .bottom-nav-link:active {
+    color: var(--accent);
+  }
+}
